@@ -1,0 +1,104 @@
+head{
+    background-color: #354a41;
+}
+
+form {
+    background-image: radial-gradient(oldlace, oldlace, #fadba0);
+    font-family: arial, serif;
+    border-radius: 30px;
+
+}
+
+h1 {
+    background: #070707;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form {
+    padding: 50px 50px 50px 50px;
+
+}
+
+.myForm {
+    position: relative;
+    padding: 220px 150px 100px 150px;
+    font-family: arial, serif;
+    background-color: #354a41;
+}
+
+h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+textarea{
+    height: 100px ;
+    width:100%;
+}
+
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background: orange;
+    color: white;
+    border: 1px solid white;
+
+}
+
+button {
+    border: 1px solid orange;
+    background: transparent;
+    color: orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.addbutton {
+    border: 1px solid orange;
+    background: transparent;
+    color: orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.addbutton:hover {
+    background: orange;
+    color: white;
+    border: 1px solid white;
+}
+
+.container {
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1390px) {
+    .myForm {
+        padding: 220px 5% 100px 5%;
+
+    }
+
+}

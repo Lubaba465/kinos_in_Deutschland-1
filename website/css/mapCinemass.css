@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.mapCinema{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 50vh;
+}
+a {
+    color: forestgreen;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+#map {
+    overflow-y: scroll;
+    right: 200px;
+    position: absolute;
+    height: 40vh;
+    width: 50%;
+    border: 1px solid white;
+}
+
+#osm {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.popup img{
+    width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    body,html {
+        overflow: auto;
+    }
+    #map {
+
+        right: 0;
+        position: relative;
+        width: 100%;
+    }
+    .mapCinema{
+    }
+}

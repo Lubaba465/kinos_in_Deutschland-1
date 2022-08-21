@@ -1,0 +1,70 @@
+body {
+    font-family: arial, serif;
+    background-color: #354a41;
+}
+
+p {
+    color: goldenrod;
+    font-family: arial, serif;
+}
+
+u {
+    color: goldenrod;
+}
+
+i{
+    color: palegoldenrod;
+    font-family: arial, serif;
+}
+
+label{
+    font-family: arial, serif;
+    color: oldlace;
+}
+
+a:link,
+a:hover {
+    font-family: arial, serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.terms-container {
+    position: relative;
+    background-blend-mode: screen;
+    padding: 220px 40px 0 40px;
+    margin-bottom: 400px;
+}
+
+
+.terms-container h1, h2 {
+    color: goldenrod;
+    font-family: arial, serif;
+}
+
+
+.terms-container h4, li, p {
+    color: oldlace;
+    font-family: arial, serif;
+}
+
+.faq-container {
+    position: relative;
+    background-blend-mode: screen;
+    padding: 220px 40px 0 40px;
+    margin-bottom: 400px;
+}
+
+
+.faq-container h1, h2 {
+    color: goldenrod;
+    font-family: arial, serif;
+}
+
+
+.faq-container h4, li, p {
+    color: oldlace;
+    font-family: arial, serif;
+}

@@ -1,0 +1,132 @@
+.allcinema-container {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.allcinemalabel span {
+    color: #E1FCA2;
+    font-family: 'Niconne', cursive;
+    font-size: 3.5rem;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.three {
+    grid-column: 2 / 6;
+    grid-row: 1;
+    color: #c9cacc;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.section1 {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background: rgba(106, 163, 99, 0.1);
+}
+
+.section1 div {
+    width: 50%;
+}
+
+.section1 img {
+    margin: 50px 10px 10px 0;
+}
+
+.cinemadescription {
+    margin: 50px;
+    margin-right: 20px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.box {
+    /*Animation
+      transform: translateX(200px);*/
+    transform: translateX(400px);
+    transition: transform 0.7s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.searchbutton {
+    position: absolute;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    right: 10px;
+    top: 5px;
+}
+
+.search {
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 9999em;
+    box-shadow: 3px -3px 30px orange, -3px 3px 30px orange;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform .5s, opacity .25s;
+}
+
+.input {
+    background: #E1FCA2 !important;
+    display: inline-block;
+    height: 30px;
+    border-radius: 9999em;
+    width: 50%;
+    padding: 2px;
+    position: relative;
+    margin: 5px;
+}
+
+.likeButton {
+    position: absolute;
+    left: 530px;
+    top: 280px;
+    border: none;
+    background: none;
+    color: #ffffff;
+}
+
+.likeButton i {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .section1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .section1 div {
+        width: 100%;
+    }
+
+    .cinemadescription {
+        margin: 3px
+    }
+
+    .likeButton {
+        right: 0 !important;
+        left: 200px;
+    }
+}

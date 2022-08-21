@@ -1,0 +1,47 @@
+.comment {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 75% !important;
+    height: 200px;
+}
+
+h3 {
+    color: #E1FCA2;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 200%;
+}
+
+p {
+    color: #9f9b9b;
+    font-family: 'New Roman', serif;
+    font-size: 150%;
+}
+
+.comment:focus {
+    outline: none;
+    transform: scale(1);
+    border: none;
+    box-shadow: 3px -3px 30px orange, -3px 3px 30px orange;
+}
+
+.btn {
+    background: transparent;
+    color: white;
+    height: 50px;
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    box-shadow: 3px -3px 30px orange, -3px 3px 30px orange;
+    background: #E1FCA2;
+    color: #354a41;
+}
+
+.slideshow-container {
+    background-image: linear-gradient(transparent, #ffffff);
+}

@@ -1,0 +1,98 @@
+.user-container {
+    padding-top: 25%;
+    height: 100%;
+}
+
+
+.input {
+    background: #E1FCA2 !important;
+    display: inline-block;
+    height: 30px;
+    border-radius: 9999em;
+    width: 50%;
+    padding: 2px;
+    position: relative;
+    margin: 5px;
+}
+
+.myForm {
+    width: 450px;
+}
+
+.search {
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 9999em;
+}
+
+.search {
+    transform: scale(1);
+    box-shadow: 3px -3px 30px orange, -3px 3px 30px orange;
+    opacity: 1;
+    transition: transform .5s, opacity .25s;
+}
+
+.icon {
+    background: none;
+    border: none;
+    position: absolute;
+    top: -300px;
+    right: -100px;
+}
+
+.icon i {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.icon-trash i {
+    position: absolute;
+    z-index: 0;
+}
+
+.icon-trash {
+    position: relative;
+    top: -320px;
+    right: -150px;
+}
+
+.input-field {
+    text-align: center;
+    background: none;
+    position: absolute;
+    z-index: 3;
+    border: none;
+
+}
+
+.icon-trash i {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.addbutton {
+    margin-bottom: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.addbutton a {
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+}
+
+.addbutton a:hover {
+    background: #E1FCA2;
+    color: #354a41;
+}
+
+@media only screen and (max-width: 500px) {
+    .cinema-container {
+        margin-left: 0 !important;
+    }
+}
